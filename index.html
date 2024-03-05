@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+    <!-- CSS LINK FILES -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header-box">
+        <h1>Body Mass Index</h1>
+        <h2>Calculator</h2>
+    </div>
+    <div class="input-box">
+        <div id="inputs">
+            <input type="number" name="weight" id="inputWeight" placeholder="kilogram (kg)">
+            <input type="number" name="height" id="inputHeight" placeholder="centimeter (cm)">
+        </div>
+        <div id="line"></div>
+        <div id="buttons">
+            <button id="clearBTN">Clear</button>
+            <button id="calcBTN">Calculate</button>
+        </div>
+    </div>
+    <div class="result-box">
+        <h3 id="info"></h3>
+        <h1 id="class"><span id="highlight"></span></h1>
+        <br>
+        <button id="backBTN">Back</button>
+    </div>
+
+    <!-- SCRIPT FILE -->
+    <script src="script.js"></script>
+</body>
+</html>
